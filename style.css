@@ -1,0 +1,41 @@
+.sec1{
+	/*background: url(img/1.jpg);*/
+	min-height: 500px;
+}
+.sec2{
+	/*background: url(img/2.jpg);*/
+	min-height: 500px;
+}
+
+.ripple {
+    background-image: url(img/l5.jpg);
+    background-size: cover;
+    min-height: 400px;
+    background-position: center;
+    position: relative;
+}
+.sps{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color:white;
+	font-size: 56px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.count_p{
+	background-color: gray;
+	text-align: center;
+	height: 200px;
+}
+.count_p h1{
+	color: white;
+}
+
+.isotop_button button.active{
+    background-color: tomato!important;
+}
+ul.slick-dots {
+    display: none!important;
+}
